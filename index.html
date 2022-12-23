@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Rentals</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Classic Rentals</h1>
+    <p id="description">Stunning luxury cars from all over the world. Fill in your details to rent a car of your choosing.</p>
+    </div>
+    <div id="main">
+        <form id="rental-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="18+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Preferred Brand: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="Benz">Mercedes Benz</option>
+                <option value="BMW">BMW</option>
+                <option value="Lexus">Lexus</option>
+                <option value="Maserati">Maserati</option>
+                <option value="Bugatti">Bugatti</option>
+                <option value="Bentley">Bentley</option>
+                <option value="Range_rover">Range Rover</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Lamborghini">Lamborghini</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="job-label"><b>Employment Status:</b></label><br>
+            <input type="radio" class="radio-inline" name="status" value="employed" checked>Employed<br>
+            <input type="radio" class="radio-inline" name="status" value="freelancer">Business Owner<br>
+            <input type="radio" class="radio-inline" name="status" value="investor">Investor<br>
+            <input type="radio" class="radio-inline" name="status" value="others">Others<br>
+          </div>
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Cars Currently or Previously Owned</strong></label><br>
+            <select id="dropdown" name="cars" class="form"><br><br>
+              <option value="benz">Mercedes Benz</option>
+              <option value="BMW">BMW</option>
+              <option value="Lexus">Lexus</option>
+              <option value="Maserati">Maserati</option>
+              <option value="Bugatti">Bugatti</option>
+              <option value="Bentley">Bentley</option>
+              <option value="Range_rover">Range Rover</option>
+              <option value="Ferrari">Ferrari</option>
+              <option value="Lamborghini">Lamborghini</option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Select the car(s) you would like to rent:</b></label><br>
+            <input type="checkbox" name="car1" value="benz">Mercedes Benz<br>
+            <input type="checkbox" name="car2" value="BMW">BMW<br>
+            <input type="checkbox" name="car3" value="Lexus">Lexus<br>
+            <input type="checkbox" name="car4" value="Maserati">Maserati<br>
+            <input type="checkbox" name="car5" value="Bugatti">Bugatti<br>
+            <input type="checkbox" name="car6" value="Bentley">Bentley<br>
+            <input type="checkbox" name="car7" value="Range_rover">Range Rover<br>
+            <input type="checkbox" name="car8" value="Ferrari">Ferrari<br>
+            <input type="checkbox" name="car9" value="Lamborghini">Lamborghini<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Send us a message</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to send us a message..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
